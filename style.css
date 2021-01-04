@@ -1,3 +1,32 @@
 body {
   background-color: lightblue;
 }
+li{
+	list-style-type: none;
+	/*when I specify 2 values to margin, the first one is for the top and bottom side, the second for the left and right side*/
+  margin: 0 2vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 3vh;
+}
+a{
+	text-decoration: none;
+	  /*also changed the font family but that's totally irrelevant*/
+  font-family: Montserrat;
+}
+a:hover{
+  background-color: #C6E9FF;
+}
+nav{
+	width: 100vw;
+}
+ul{
+  margin: 0;
+  padding: 0;    
+  /*this option by default dispose the elements in a row (flex-direction: row)*/
+  display: flex;
+  /*add something to make responsive later*/
+}
+
+body{
+  margin: 0;
+}
